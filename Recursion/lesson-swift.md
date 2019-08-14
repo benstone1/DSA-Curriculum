@@ -135,12 +135,12 @@ How would you write this same thing recursively?
 <summary>SOLUTION</summary>
 
 ```swift
-func countUp(to: Int, starting: Int) => {
-  if starting <= to {
+func countUp(to targetNum: Int, startingAt startNum: Int) => {
+  if startNum <= targetNum {
     return
   }
   print(i);
-  countUp(to: to, starting: starting + 1)
+  countUp(to: targetNum, starting: startNum + 1)
 }
 ```
 </details>
